@@ -1,0 +1,77 @@
+body {
+    background-image: url("theatre.jpg");
+    color:antiquewhite;
+    letter-spacing: 5px;
+    font-family: sans-serif;
+}
+
+h1,h2{
+    font-weight: normal;
+}
+
+#wrapper {
+    background-color: rgb(89, 76, 76);
+    width: 50%;
+    max-width: 960px;
+    margin: 20px auto;
+    border-radius: 6px;
+    box-shadow: 1px 10px 10px red(0,0,0,0.7);
+    box-sizing: border-box;
+    padding: 0 0 20px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+    
+}
+
+
+
+#movie-list,#add-movie {
+    margin: 30px;
+}
+
+#movie_list ul {
+   display: flex;
+   flex-direction: column;
+   flex: content;
+   list-style-type: none;
+    
+}
+
+#movie_list li {    
+    padding: 20px;
+    border-left: 5px solid  #ddd;
+    margin: 20px 10px;
+}
+
+#movie-list li:hover {
+    /* padding: 20px;
+    border-left: 5px solid #ddd;
+    margin: 20px 10px; */
+    border-color:rgb(106, 121, 116);
+
+}
+
+.delete {
+ float:right;
+    
+        cursor: pointer;
+        color: rgb(251, 246, 246);
+        border-radius: 20px;
+}
+    
+.delete:hover {
+    background: red;
+}
+
+#add-movie {
+    width: 400px;
+    margin: 0 auto;
+
+}
+
+
+
+
+
+
+
